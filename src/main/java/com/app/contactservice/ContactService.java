@@ -7,7 +7,7 @@ import org.springframework.stereotype.Service;
 
 import com.app.entity.Contact;
 
-@Service
+
 public interface ContactService {
 
 	public String saveConact(Contact contact) throws ServerException;
