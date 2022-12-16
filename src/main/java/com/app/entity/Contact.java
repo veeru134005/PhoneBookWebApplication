@@ -17,6 +17,9 @@ import lombok.NoArgsConstructor;
 @Table(name= "Contactlist")
 public class Contact {
 
+	public Contact(String string, String string2, String string3) {
+		// TODO Auto-generated constructor stub
+	}
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
 	Integer contactId;
